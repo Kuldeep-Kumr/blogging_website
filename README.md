@@ -1,11 +1,17 @@
 It is a Blogging Api designed with django rest framework
 
 ---------------------Important URLS------------------------------
+
 register -> http://127.0.0.1:8000/auth/register/
+
 login -> http://127.0.0.1:8000/auth/login/
+
 blogs -> http://127.0.0.1:8000/blogs/
+
 comments -> http://127.0.0.1:8000/blogs/comments/<blog_id>
+
 reply -> http://127.0.0.1:8000/blogs/comments/reply/<comment_id>
+
 -----------------------------------------------------------------
 
 For register call the api http://127.0.0.1:8000/auth/register/ with post request and provide username and password
